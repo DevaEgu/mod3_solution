@@ -1,0 +1,71 @@
+h1 {
+	font-weight: 900;
+}
+#brand-name {
+	margin-left: 30px;
+}
+.navbar{
+	background-color: #518cf0;
+	border: 1px solid #0c091c;
+	margin-bottom: 0;
+}
+.navbar .navbar-brand {
+	color: black;
+	font-weight: 900;
+	margin: auto;
+}
+#nav-list {
+	background: #518cf0;
+	border:none;
+}
+#nav-list a {
+	color: black;
+	font-weight: 600;
+	border: 1px solid black;
+}
+.container .chicken {
+	background-color: #93faf6;
+	overflow: hidden;
+   margin-left: -50px;
+   margin-right: 15px;
+   margin-bottom: 10px;
+}
+.container .chicken p {
+	margin:10px 15px 25px 15px;
+}
+.container .chicken h2 {
+   font-weight: 600;
+}
+.container .beef {
+	background-color: #93a1fa;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.container .beef p {
+	margin:10px 15px 25px 15px;
+}
+.container .beef h2 {
+   font-weight: 600;
+}
+.container .sushi {
+	background-color: #e38efa;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.container .sushi p {
+	margin:10px 15px 25px 15px;
+}
+.container .sushi h2 {
+   font-weight: 600;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .sushi{
+		margin-left: -45px;
+	}
+}
+@media (max-width: 767px) {
+	.container .chicken{
+		margin-left: 10px;
+	}
+}
